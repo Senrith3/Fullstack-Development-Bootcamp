@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-axios.defaults.baseURL = 'http://localhost:5000/api/taskslist';
+axios.defaults.baseURL = '/api/taskslist';
 
 export default class PostService {
     getTasks() {
